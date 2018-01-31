@@ -1,5 +1,5 @@
 {
-  "name": "comp308-w2017-lesson2a",
+  "name": "comp308-w2017-lesson3",
   "version": "1.0.0",
   "description": "connect server demo",
   "main": "server.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PawanAtCentennial/COMP308-W2017-Lesson2A.git"
+    "url": "git+https://github.com/PawanAtCentennial/COMP308-W2017-Lesson3A.git"
   },
   "keywords": [
     "connect",
@@ -21,10 +21,10 @@
   "author": "Pawan Vig Tom Tsiliopoulous",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PawanAtCentennial/COMP308-W2017-Lesson2A/issues"
+    "url": "https://github.com/PawanAtCentennial/COMP308-W2017-Lesson3A/issues"
   },
-  "homepage": "https://github.com/PawanAtCentennial/COMP308-W2017-Lesson2A#readme",
+  "homepage": "https://github.com/PawanAtCentennial/COMP308-W2017-Lesson3A#readme",
   "dependencies": {
-    "connect": "^3.6.5"
+    "express": "^4.16.2"
   }
 }
