@@ -1,0 +1,30 @@
+{
+  "name": "comp308-w2017-lesson2a",
+  "version": "1.0.0",
+  "description": "connect server demo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PawanAtCentennial/COMP308-W2017-Lesson2A.git"
+  },
+  "keywords": [
+    "connect",
+    "node",
+    "js",
+    "java",
+    "script"
+  ],
+  "author": "Pawan Vig Tom Tsiliopoulous",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PawanAtCentennial/COMP308-W2017-Lesson2A/issues"
+  },
+  "homepage": "https://github.com/PawanAtCentennial/COMP308-W2017-Lesson2A#readme",
+  "dependencies": {
+    "connect": "^3.6.5"
+  }
+}
