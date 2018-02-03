@@ -11,7 +11,8 @@ console.log(`Server listening at port: ${port}`);
 app.use('/hello', (req, res, next) => {
     // req.url starts with "/foo"
    
-    res.end('hello world');
+    res.send('hello world');
+    //res.redirect("index.html");
     next();
   });
 
@@ -19,8 +20,8 @@ app.use('/hello', (req, res, next) => {
 app.use('/', (req, res, next) => {
     // req.url starts with "/foo"
    
-    res.end('welcome ji');
+    res.send('welcome ji');
     next();
   });
 
-  
+  module.exports = app;
