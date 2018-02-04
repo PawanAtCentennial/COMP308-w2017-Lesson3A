@@ -6,7 +6,7 @@ let app = express();
 
 const localport = 3000;
 
-let port = process.env.port || localport ;
+let port = process.env.PORT || localport ;
 //app.listen(3000);
 
 app.set('port',port);
