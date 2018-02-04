@@ -1,34 +1,39 @@
 {
-  "name": "comp308-w2017-lesson3",
-  "version": "1.0.0",
-  "description": "connect server demo",
-  "main": "server.js",
+  "name": "comp308-w2017-lesson3a",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "engines": {
     "npm": ">=5.6.0",
     "node": ">=9.4.0"
   },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "morgan": "~1.9.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "description": "use **`npm install`** to install your project dependencies",
+  "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PawanAtCentennial/COMP308-W2017-Lesson3A.git"
+    "url": "git+https://github.com/PawanAtCentennial/COMP308-w2017-Lesson3A.git"
   },
   "keywords": [
-    "connect",
     "node",
     "js",
-    "java",
-    "script"
+    "express",
+    "js"
   ],
-  "author": "Pawan Vig Tom Tsiliopoulous",
+  "author": "pawan vig",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PawanAtCentennial/COMP308-W2017-Lesson3A/issues"
+    "url": "https://github.com/PawanAtCentennial/COMP308-w2017-Lesson3A/issues"
   },
-  "homepage": "https://github.com/PawanAtCentennial/COMP308-W2017-Lesson3A#readme",
-  "dependencies": {
-    "express": "^4.16.2"
-  }
+  "homepage": "https://github.com/PawanAtCentennial/COMP308-w2017-Lesson3A#readme"
 }
